@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import speech_recognition as sr
 import pyttsx3
-import webbrowser
+import webbrowser 
 import pywhatkit
 import threading
 import time
