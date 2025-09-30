@@ -41,7 +41,7 @@ def process_web_command(command, display_label):
             speak(f"Opening {site}", display_label)
 
     elif "search" in command or "who is" in command or "what is" in command:
-        query = command.replace("search", "").replace("who is", "").replace("what is", "").strip()
+        query = command.replace("search", "").replace("who is", "").replace("what is", "").strip() 
         webbrowser.open(f"https://www.google.com/search?q={query}")
         speak(f"Searching Google for {query}", display_label)
 
@@ -146,3 +146,4 @@ listen_thread.start()
 
 # Run the main loop
 window.mainloop()
+
