@@ -7,7 +7,7 @@ Speech Recognition: Understands and processes voice commands
 Text-to-Speech (TTS): Responds with a natural-sounding voice
 Automated Tasks: Can open applications, fetch weather updates, browse the web, etc.
 AI-Powered: Uses NLP to improve interactions
-Technologies Used
+Technologies Used 
 Python (Core Development)
 SpeechRecognition (Voice input processing)
 pyttsx3 (Text-to-Speech)
