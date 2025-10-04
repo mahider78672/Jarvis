@@ -144,6 +144,7 @@ listen_thread = threading.Thread(target=listen_and_respond, args=(response_label
 listen_thread.daemon = True
 listen_thread.start()
 
-# Run the main loop
+# Run the main loop 
 window.mainloop()
+
 
